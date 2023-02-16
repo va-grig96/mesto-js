@@ -1,18 +1,23 @@
 .profile__add-button {
+	height: 22px;
 	padding: 14px 64px;
 	border: 2px solid #fff;
 	border-radius: 2px;
 	justify-self: flex-end;
 	align-self: center;
 	margin-bottom: 24px;
+	transition-property: opacity;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
 }
 
-@media screen and (max-width: 1080px) {
-	.profile__add-button {}
+.profile__add-button:hover {
+	opacity: 0.6;
+	cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-	.profile__add-button {}
+@media screen and (max-width: 575px) {
+	.profile__add-button {
+		justify-self: stretch;
+	}
 }
-
-.profile__add-button:hover {}

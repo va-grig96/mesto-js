@@ -3,12 +3,21 @@
 	height: 10px;
 	padding: 7px;
 	border: 1px solid #fff;
-	align-self: flex-end;
-	margin-bottom: 6px;
+	vertical-align: baseline;
+	transition-property: opacity;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
 }
 
-@media screen and (max-width: 1080px) {
-	.profile__edit-button {}
+.profile__edit-button:hover {
+	opacity: 0.6;
+	cursor: pointer;
 }
 
-.profile__edit-button:hover {}
+@media screen and (max-width: 575px) {
+	.profile__edit-button {
+		width: 7.5px;
+		height: 7.5px;
+		padding: 5.25px;
+	}
+}

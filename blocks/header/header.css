@@ -15,11 +15,8 @@
 	bottom: 0;
 }
 
-
-@media screen and (max-width: 1080px) {
-	.header {}
-}
-
-@media screen and (max-width: 768px) {
-	.header {}
+@media screen and (max-width: 575px) {
+	.header {
+		padding: 28px 0 20px;
+	}
 }
