@@ -1,0 +1,7 @@
+.popup__close-button {}
+
+.popup__close-button:hover {}
+
+@media screen and (max-width: 768px) {
+	.popup__close-button {}
+}

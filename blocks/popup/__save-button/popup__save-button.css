@@ -1,0 +1,7 @@
+.popup__save-button {}
+
+.popup__save-button:hover {}
+
+@media screen and (max-width: 768px) {
+	.popup__save-button {}
+}

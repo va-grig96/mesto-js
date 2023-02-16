@@ -1,0 +1,13 @@
+.profile {
+	display: grid;
+	grid-template-columns: 157px minmax(max-content, 336px) 1fr;
+	margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1080px) {
+	.profile {}
+}
+
+@media screen and (max-width: 768px) {
+	.profile {}
+}

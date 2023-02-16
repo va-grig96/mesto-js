@@ -1,0 +1,5 @@
+.element__img {
+	width: 100%;
+	max-width: 282px;
+	grid-column: 1 / -1;
+}
